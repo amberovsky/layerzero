@@ -1,0 +1,11 @@
+sudo: required
+
+services:
+  - docker
+
+install:
+  - docker build -t amberovsky/layerzero .
+  - docker run -d --name=layerzero amberovsky/layerzero
+
+script:
+  - docker ps | grep -q layerzero
