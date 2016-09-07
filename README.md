@@ -1,5 +1,7 @@
 # Docker layerzero image
 
+[![Build Status](https://travis-ci.org/amberovsky/layerzero.svg?branch=16.04)](https://travis-ci.org/amberovsky/layerzero)
+
 ## Goals
 -   pre-install useful packages
 -   exclude apt-get recommendations
