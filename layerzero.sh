@@ -11,7 +11,7 @@ apt-get update && apt-get -y upgrade
 apt-get install -y mc htop
 apt-get autoremove -y && apt-get clean
 
-#chsh -s /bin/bash www-data
+chsh -s /bin/bash www-data
 
 rm -rf /tmp/* /var/tmp/*
 
