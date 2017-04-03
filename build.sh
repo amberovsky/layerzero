@@ -2,5 +2,5 @@
 
 set -e
 
-docker build -t amberovsky/layerzero:0.2 ./
-docker tag amberovsky/layerzero:0.2 amberovsky/layerzero:latest
+docker build -t amberovsky/layerzero:1.0 ./
+docker tag amberovsky/layerzero:1.0 amberovsky/layerzero:latest

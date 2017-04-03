@@ -5,7 +5,6 @@
 ## Goals
 -   pre-install useful packages
 -   exclude apt-get recommendations
--   set `en_US.UTF-8` locale globally
 
 ## What inside
 -   phusion/baseimage ubuntu 16.04 LTS
@@ -14,11 +13,6 @@
 
 ## Build
 -   `docker build -t name:tag ./`
-
-## History
--   0.1
-
-    Initial release
 
 ## License
 
