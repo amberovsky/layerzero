@@ -1,11 +1,7 @@
-FROM phusion/baseimage:0.9.19
+FROM phusion/baseimage:18.04-1.0.0
 
 MAINTAINER Anton Zagorskii <amberovsky@gmail.com>
 
-ENV DEBIAN_FRONTEND noninteractive
-ENV LANG en_US.UTF-8
-ENV LANGUAGE en_US:en
-ENV LC_ALL en_US.UTF-8
 ENV TERM xterm
 
 ADD ./ /build-layerzero
