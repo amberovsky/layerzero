@@ -16,15 +16,19 @@
 -   `docker build -t name:tag ./`
 
 ## History
--   0.4
+- 0.6
+
+    linux/amd64, linux/arm64
+
+- 0.4
     
     Bump to Ubuntu 20.04
     
--   0.3
+- 0.3
 
     Bump to Ubuntu 18.04
     
--   0.1
+- 0.1
 
     Initial release
 
