@@ -1,4 +1,4 @@
-FROM phusion/baseimage:focal-1.0.0-amd64
+FROM phusion/baseimage:focal-1.0.0
 
 MAINTAINER Anton Zagorskii <amberovsky@gmail.com>
 

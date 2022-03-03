@@ -2,5 +2,4 @@
 
 set -e
 
-docker build --no-cache -t amberovsky/layerzero:0.5 ./
-docker tag amberovsky/layerzero:0.5 amberovsky/layerzero:latest
+docker buildx build --no-cache --platform linux/amd64,linux/arm64 -t amberovsky/layerzero:0.6 --push ./
