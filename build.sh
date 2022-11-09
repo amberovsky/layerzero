@@ -2,4 +2,4 @@
 
 set -e
 
-docker buildx build --no-cache --platform linux/amd64,linux/arm64 -t amberovsky/layerzero:0.6 --push ./
+docker buildx build --no-cache --platform linux/amd64,linux/arm64 -t amberovsky/layerzero:0.7 --push ./
