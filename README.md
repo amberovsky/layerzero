@@ -16,6 +16,10 @@
 -   `docker build -t name:tag ./`
 
 ## History
+- 0.7
+
+  focal-1.2.0
+
 - 0.6
 
     linux/amd64, linux/arm64
@@ -33,7 +37,5 @@
     Initial release
 
 ## License
-
-### License
 
 Copyright (C) 2016-2021 Anton Zagorskii, BSD-3-Clause license, See [license file](/LICENSE.txt) for details
