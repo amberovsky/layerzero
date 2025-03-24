@@ -1,8 +1,7 @@
-FROM phusion/baseimage:focal-1.2.0
+FROM phusion/baseimage:noble-1.0.1
 
-MAINTAINER Anton Zagorskii <amberovsky@gmail.com>
-
-ENV TERM xterm
+ENV TERM=xterm
+ENV DEBIAN_FRONTEND=noninteractive
 
 ADD ./ /build-layerzero
 RUN /build-layerzero/layerzero.sh && rm -rf /build-layerzero
