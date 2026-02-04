@@ -16,6 +16,10 @@
 -   `docker build -t name:tag ./`
 
 ## History
+- 0.10
+
+  noble-1.0.2
+
 - 0.7
 
   focal-1.2.0
